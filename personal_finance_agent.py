@@ -21,10 +21,10 @@ Upload your bank statements, credit card statements, or other financial document
 st.sidebar.header("Azure AI Configuration")
 
 # Azure AI credentials from the second snippet
-endpoint = ""
+endpoint = "https://mihir-meqx9fi5-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4.1-nano"
 model_name = "gpt-5-nano"
 deployment = "gpt-5-nano"
-subscription_key = ""
+subscription_key = "7nF5FMRMTsBFlKOfTsufKI7FBcoiVTFWKn6IJpVM8311aC3XxhoQJQQJ99BHACHYHv6XJ3w3AAAAACOG3UdU"
 api_version = "2024-12-01-preview"
 
 # Function to create Azure AI client
